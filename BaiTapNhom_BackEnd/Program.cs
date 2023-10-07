@@ -1,3 +1,6 @@
+using BaiTapNhom_BackEnd.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace BaiTapNhom_BackEnd
 {
     public class Program
@@ -5,6 +8,7 @@ namespace BaiTapNhom_BackEnd
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<ToBoMonConText>(option => option.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
             // Add services to the container.
 
