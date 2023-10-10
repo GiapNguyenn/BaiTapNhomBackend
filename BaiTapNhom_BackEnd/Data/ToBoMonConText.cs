@@ -22,5 +22,7 @@ namespace BaiTapNhom_BackEnd.Data
         public DbSet<ToBoMon> toBoMons { get;set; }
         public DbSet<NienKhoa> nienKhoas { get;set; }
         public DbSet<Blooms> blooms { get;set; }
+        public DbSet<TinhTrangPhanMon> tinhTrangPhanMons { get;set; }
+        public DbSet<HeDaoTao> heDaoTao { get;set;}
     }
 }

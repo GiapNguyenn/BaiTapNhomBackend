@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BaiTapNhom_BackEnd.Data;
+using Microsoft.EntityFrameworkCore;
 namespace BaiTapNhom_BackEnd.Models
 {
     public class TodoContext : DbContext
