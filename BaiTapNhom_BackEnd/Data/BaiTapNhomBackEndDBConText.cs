@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 namespace BaiTapNhom_BackEnd.Data
 {
-    public class ToBoMonConText:DbContext
+    public class BaiTapNhomBackEndDBConText:DbContext
     {
-        public ToBoMonConText(DbContextOptions<ToBoMonConText> options) :base(options)
+        public BaiTapNhomBackEndDBConText(DbContextOptions<BaiTapNhomBackEndDBConText> options) :base(options)
         {
             
         }
