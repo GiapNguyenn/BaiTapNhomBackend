@@ -8,8 +8,8 @@ namespace BaiTapNhom_BackEnd.Controllers
     [ApiController]
     public class ToBoMonController : ControllerBase //Trương Nguyên Giáp người hoàn thành
     {
-        private readonly ToBoMonConText _ToBoMon;
-        public ToBoMonController(ToBoMonConText toBoMon)
+        private readonly BaiTapNhomBackEndDBConText _ToBoMon;
+        public ToBoMonController(BaiTapNhomBackEndDBConText toBoMon)
         {
             _ToBoMon = toBoMon;
         }

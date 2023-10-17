@@ -10,8 +10,8 @@ namespace BaiTapNhom_BackEnd
     [ApiController]
     public class HeDaoTaoController : ControllerBase
     {
-        private readonly ToBoMonConText _context;
-        public HeDaoTaoController(ToBoMonConText context)
+        private readonly BaiTapNhomBackEndDBConText _context;
+        public HeDaoTaoController(BaiTapNhomBackEndDBConText context)
         {
             _context = context;
         }

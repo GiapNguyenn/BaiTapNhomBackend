@@ -10,8 +10,8 @@ namespace BaiTapNhom_BackEnd.Controllers
     [ApiController]
     public class NienKhoaController : ControllerBase
     {
-        private readonly ToBoMonConText _context;
-        public NienKhoaController(ToBoMonConText context)
+        private readonly BaiTapNhomBackEndDBConText _context;
+        public NienKhoaController(BaiTapNhomBackEndDBConText context)
         {
             _context = context;
         }

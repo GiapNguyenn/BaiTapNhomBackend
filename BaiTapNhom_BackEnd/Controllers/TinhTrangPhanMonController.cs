@@ -10,8 +10,8 @@ namespace BaiTapNhom_BackEnd
     [ApiController]
     public class TinhTrangPhanMonController : ControllerBase
     {
-        private readonly ToBoMonConText _context;
-        public TinhTrangPhanMonController(ToBoMonConText context)
+        private readonly BaiTapNhomBackEndDBConText _context;
+        public TinhTrangPhanMonController(BaiTapNhomBackEndDBConText context)
         {
             _context = context;
         }

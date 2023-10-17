@@ -10,8 +10,8 @@ namespace BaiTapNhom_BackEnd.Controllers
     [ApiController]
     public class BloomsController : ControllerBase
     {
-        ToBoMonConText dbContext;
-        public BloomsController(ToBoMonConText db) => dbContext = db;
+        BaiTapNhomBackEndDBConText dbContext;
+        public BloomsController(BaiTapNhomBackEndDBConText db) => dbContext = db;
         // GET: api/<BloomsController>
         [HttpGet]
         public async Task<IActionResult> Get()
