@@ -26,6 +26,9 @@ namespace BaiTapNhom_BackEnd.Data
         public DbSet<TinhTrangPhanMon> tinhTrangPhanMons { get;set; }
         public DbSet<HeDaoTao> heDaoTao { get;set;}
         public DbSet<LoaiMon> loaiMons { get; set; }
+        public DbSet<SinhVien> sinhviens { get; set; }
+        public DbSet<PI> pi { get; set; }
+
     }
 
 }
