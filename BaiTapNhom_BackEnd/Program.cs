@@ -10,7 +10,6 @@ namespace BaiTapNhom_BackEnd
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<BaiTapNhomBackEndDBConText>(option => option.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            builder.Services.AddDbContext<TodoContext>(option => option.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             // Add services to the container.
 
             builder.Services.AddControllers();

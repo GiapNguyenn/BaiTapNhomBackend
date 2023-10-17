@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
  using Microsoft.EntityFrameworkCore;
 using BaiTapNhom_BackEnd.Models;
+using BaiTapNhom_BackEnd.Data;
 
 namespace BaiTapNhom_BackEnd
 {
@@ -9,8 +10,8 @@ namespace BaiTapNhom_BackEnd
     [ApiController]
     public class LoaiMonController : ControllerBase
     {
-        private readonly TodoContext _context;
-        public LoaiMonController(TodoContext context)
+        private readonly BaiTapNhomBackEndDBConText _context;
+        public LoaiMonController(BaiTapNhomBackEndDBConText context)
         {
             _context = context;
         }

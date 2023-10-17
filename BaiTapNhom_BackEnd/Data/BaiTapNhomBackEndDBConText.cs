@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BaiTapNhom_BackEnd.Models;
+using Microsoft.EntityFrameworkCore;
 namespace BaiTapNhom_BackEnd.Data
 {
     public class BaiTapNhomBackEndDBConText:DbContext
@@ -24,5 +25,7 @@ namespace BaiTapNhom_BackEnd.Data
         public DbSet<Blooms> blooms { get;set; }
         public DbSet<TinhTrangPhanMon> tinhTrangPhanMons { get;set; }
         public DbSet<HeDaoTao> heDaoTao { get;set;}
+        public DbSet<LoaiMon> loaiMons { get; set; }
     }
+
 }

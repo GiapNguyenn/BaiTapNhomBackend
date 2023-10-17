@@ -7,7 +7,7 @@ namespace BaiTapNhom_BackEnd.Data
         [Key]
         public int IDTTPhanMon { get; set; }
         [Required]
-        public string NoiDung { get; set; }
+        public string? NoiDung { get; set; }
         public bool IsDelete { get; set; }
 
     }
